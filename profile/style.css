@@ -1,0 +1,108 @@
+body {
+  background-color: white;
+  font-size: 15px;
+  line-height: 25px;
+  padding: 20px;
+}
+/* <-- this is a comment --> */
+
+p {
+  font-family: kode mono;
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+a {
+  font-family: kode mono;
+  color: #748E63;
+  text-decoration-line: none;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+a:hover {
+  color: #BCA37F;
+  transition: 1s;
+}
+
+div {
+  color: #BCA37F;
+  font-family: kode mono;
+  border-radius: 5px;
+  box-shadow: 0px 0px 30px #BCA37F;
+  text-align: center;
+}
+
+#image-circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.btn-color {
+  background-color: #113946;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+
+#margin {
+  margin-bottom: 40px;
+}
+
+.card-two ul li{
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+.card-two ul li a{
+  background-color: #113946;
+  display: inline;
+  margin-right: 5px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 5px;
+}
+@media (max-width: 1200px) {
+.container {
+  width: 1000px;
+}
+
+}
+
+@media (max-width: 960px) {
+
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
